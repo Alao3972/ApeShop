@@ -37,12 +37,12 @@
             tools:layout_editor_absoluteY="37dp">
 
             <EditText
-                android:id="@+id/editText7"
+                android:id="@+id/firstNameText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="26dp"
                 android:ems="10"
-                android:hint="First Name"
+                android:hint="@string/firstName"
                 android:inputType="textPersonName"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
@@ -52,12 +52,12 @@
                 tools:layout_constraintTop_creator="1" />
 
             <EditText
-                android:id="@+id/editText8"
+                android:id="@+id/lastNameText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="13dp"
                 android:ems="10"
-                android:hint="Last Name"
+                android:hint="@string/lastName"
                 android:inputType="textPersonName"
                 app:layout_constraintLeft_toLeftOf="@+id/editText"
                 app:layout_constraintRight_toRightOf="@+id/editText"
@@ -67,27 +67,27 @@
                 tools:layout_constraintTop_creator="1" />
 
             <EditText
-                android:id="@+id/editText9"
+                android:id="@+id/emailText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="13dp"
                 android:ems="10"
-                android:hint="Email"
-                android:inputType="textPersonName"
+                android:hint="@string/email"
                 app:layout_constraintLeft_toLeftOf="@+id/editText2"
                 app:layout_constraintRight_toRightOf="@+id/editText2"
                 app:layout_constraintTop_toBottomOf="@+id/editText2"
                 tools:layout_constraintLeft_creator="1"
                 tools:layout_constraintRight_creator="1"
-                tools:layout_constraintTop_creator="1" />
+                tools:layout_constraintTop_creator="1"
+                android:inputType="textEmailAddress" />
 
             <EditText
-                android:id="@+id/editText10"
+                android:id="@+id/passwordText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="14dp"
                 android:ems="10"
-                android:hint="Password"
+                android:hint="@string/password"
                 android:inputType="textPassword"
                 app:layout_constraintLeft_toLeftOf="@+id/editText5"
                 app:layout_constraintRight_toRightOf="@+id/editText5"
@@ -97,21 +97,22 @@
                 tools:layout_constraintTop_creator="1" />
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/countryTextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Select Country" />
+                android:text="@string/select_country" />
 
             <Spinner
                 android:id="@+id/countrySpinner"
                 android:layout_width="match_parent"
-                android:layout_height="36dp" />
+                android:layout_height="36dp"
+                android:focusable="true"/>
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/provinceTextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Select Province/State" />
+                android:text="@string/select_province_state" />
 
             <Spinner
                 android:id="@+id/provinceSpinner"
@@ -119,19 +120,19 @@
                 android:layout_height="37dp" />
 
             <EditText
-                android:id="@+id/editText"
+                android:id="@+id/addressText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="Address"
+                android:hint="@string/address"
                 android:inputType="textPersonName" />
 
             <Button
-                android:id="@+id/button9"
+                android:id="@+id/signUpButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
-                android:text="Sign Up"
+                android:text="@string/signUp"
                 app:layout_constraintRight_toRightOf="@+id/editText6"
                 app:layout_constraintTop_toBottomOf="@+id/editText6"
                 tools:layout_constraintRight_creator="1"
@@ -143,12 +144,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="23dp"
                 android:onClick="showHome"
-                android:text="Back"
+                android:text="@string/back"
                 app:layout_constraintLeft_toLeftOf="@+id/editText6"
                 app:layout_constraintTop_toBottomOf="@+id/editText6"
                 tools:layout_constraintLeft_creator="1"
                 tools:layout_constraintTop_creator="1" />
         </LinearLayout>
     </ScrollView>
-    >
 </android.support.constraint.ConstraintLayout>

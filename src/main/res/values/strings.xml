@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">ApeShop</string>
+
+    <!--
+    Sign Up layout String
+    -->
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="address">Address</string>
+    <string name="signUp">Sign Up</string>
+    <string name="back">Back</string>
+    <string name="select_province_state">Select Province/State</string>
+    <string name="select_country">Select Country</string>
 </resources>
