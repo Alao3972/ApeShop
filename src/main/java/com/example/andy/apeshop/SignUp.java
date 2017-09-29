@@ -1,6 +1,7 @@
 package com.example.andy.apeshop;
 
 import android.content.Intent;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -111,21 +112,11 @@ public class SignUp extends AppCompatActivity {
                 }
                 else{
                     startActivity(new Intent(SignUp.this, Login.class));
+                    Toast.makeText(getBaseContext(), "Sign Up Successful!", Toast.LENGTH_LONG).show();
                 }
             }
         });
-
-
-
     }
-
-    public void signUp(View view){
-
-    }
-
-
-
-
 
     /**
      * Button to home page
