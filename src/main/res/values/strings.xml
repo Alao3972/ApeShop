@@ -13,4 +13,24 @@
     <string name="back">Back</string>
     <string name="select_province_state">Select Province/State</string>
     <string name="select_country">Select Country</string>
+
+    <string-array name="countryArray">
+        <item>Select</item>
+        <item>Canada</item>
+        <item>USA</item>
+    </string-array>
+    <string-array name="provinceArray">
+        <item>Select</item>
+        <item>Alberta</item>
+        <item>British Columbia</item>
+        <item>Manitoba</item>
+        <item>New Brunswick</item>
+        <item>Newfoundland</item>
+        <item>Nova Scotia</item>
+        <item>Ontario</item>
+        <item>Prince Edward Island</item>
+        <item>Quebec</item>
+        <item>Saskatchewan</item>
+        <item>Territories</item>
+    </string-array>
 </resources>

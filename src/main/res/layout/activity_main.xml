@@ -22,15 +22,12 @@
         tools:layout_constraintBottom_creator="1"
         tools:layout_constraintTop_creator="1">
 
-
         <EditText
             android:id="@+id/searchBar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Search Product"
-
-            />
+            android:hint="Search Product" />
 
         <Button
             android:id="@+id/postAd"
